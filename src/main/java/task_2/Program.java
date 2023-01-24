@@ -18,18 +18,18 @@ public class Program {
 
     public static void main(String[] args) {
 
-        System.out.println("Введите размер первой последовательности: ");
+        System.out.println("Введите размер первого набора: ");
         Scanner con = new Scanner(System.in);
         n = con.nextInt();
         x = new int[n + 1];
-        System.out.println("Введите данные первой последовательности.");
+        System.out.println("Введите данные первого набора: ");
         for (int i = 1; i <= n; i++)
             x[i] = con.nextInt();
 
-        System.out.println("Введите размер второй последовательности: ");
+        System.out.println("Введите размер второго набора: ");
         m = con.nextInt();
         y = new int[m + 1];
-        System.out.println("Введите данные второй последовательности.");
+        System.out.println("Введите данные второго набора:");
         for (int i = 1; i <= m; i++)
             y[i] = con.nextInt();
 
